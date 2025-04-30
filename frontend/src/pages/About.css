@@ -1,0 +1,135 @@
+/* Modern Gradient Backgrounds */
+.about-container {
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    height: 50vh;
+    background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .about-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .about-hero p {
+    font-size: 1.5rem;
+    opacity: 0.9;
+  }
+  
+  /* Values Section */
+  .values-section {
+    padding: 5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .values-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2d3436;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .value-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  }
+  
+  .value-icon {
+    font-size: 2.5rem;
+    color: #6c5ce7;
+    margin-bottom: 1rem;
+  }
+  
+  /* Stats Section */
+  .stats-section {
+    background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .stat-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    min-width: 200px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .stat-icon {
+    font-size: 2.5rem;
+    color: #6c5ce7;
+    margin-bottom: 1rem;
+  }
+  
+  /* CTA Section */
+  .about-cta {
+    padding: 5rem 2rem;
+    text-align: center;
+    background: #f5f6fa;
+  }
+  
+  .cta-button {
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .stats-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .stat-card {
+      width: 80%;
+    }
+  }

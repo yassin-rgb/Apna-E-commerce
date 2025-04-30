@@ -1,0 +1,9 @@
+/* Use relative paths from the CSS file */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('../../assets/images/about/about-bg.jpg');
+  }
+  
+  .mission-image {
+    background: url('../../assets/images/about/team.jpg');
+  }
